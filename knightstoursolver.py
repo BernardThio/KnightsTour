@@ -70,8 +70,8 @@ def checkMove(posX, posY, posList, lenX, lenY):
     return True #if it passes the above 'tests', it is a legal move and therefore True can be returned
 
 startPos = [0,0]    #where the horse starts
-lenX = 7        #the lenght of the board in the X direction
-lenY = 7       #the length of the board in the Y direction
+lenX = 8        #the lenght of the board in the X direction
+lenY = 8       #the length of the board in the Y direction
 sul = solve(startPos[0], startPos[1] ,[startPos], lenX, lenY) #running the solve command at position 0,0 and with posList at with the starting location
 
 #this uses pygame to draw the knighstour
