@@ -2,7 +2,7 @@
 import pygame
 
 '''
-Autheur: Ben-Ji Thio, finished on 4-5-2020
+Author: Ben-Ji Thio, finished on 4-5-2020
 The knightstour is the path a knight can take in a chess game, to make sure that it touches every square once
 This program will calculate the knightstour, using a backtracking algorithm. However, if only a backtracking algorithm is implemented, it will take a long time to calculate a valid path, because it is in NP.
 To fix that problem, an algorithm was also implemented, to make sure it tries the moves which are most likely to succeed first
